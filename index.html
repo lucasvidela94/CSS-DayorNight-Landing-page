@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modo nocturno y diario</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dark mode switch -->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text"> Light mode </span>
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contactos</a>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="title-group">
+        <h1>¡Hola mundo!</h1>
+        <h2>Template de landing page creada en Html,css y JavaScript.</h2>
+      </div>
+    </section>
+
+    <!-- Acerca de seccion -->
+    <section id="about">
+      <h1>Seccion about</h1>
+      <div class="about-container">
+        <div class="image-container">
+          <h2>Resolucion de problemas</h2>
+          <img
+            src="img/undraw_dev_productivity_idea_light.svg"
+            alt="Productivity"
+            id="image1"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Desarrollo Front-end</h2>
+          <img
+            src="/img/undraw_static_website_idea_light.svg"
+            alt="Html and Css "
+            id="image2"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Desarrollador productivo</h2>
+          <img
+            src="/img/undraw_proud_coder_idea_light.svg"
+            alt="Desarrollador orgulloso"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Seccion proyectos -->
+    <section id="projects">
+      <h1>Botones</h1>
+      <div class="buttons">
+        <button class="primary">Primario</button>
+        <button class="secondary">Secundario</button>
+        <button class="primary" disabled>Desactivado</button>
+        <button class="outline">Fuera de linea</button>
+        <button class="secondary outline">Alt fuera de linea</button>
+        <button class="outline" disabled>Desactivado</button>
+      </div>
+
+      <div class="text-box" id="text-box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          at, iste nisi nam in ratione blanditiis quos laudantium dolor quas
+          suscipit dignissimos doloremque, cupiditate aliquam! Deleniti nihil
+          laudantium ullam sunt! Nobis porro eum optio deserunt accusamus
+          sapiente cumque esse, eos quae quaerat, laboriosam corporis alias
+          facere sit minus deleniti quam dolores voluptatibus iste eveniet magni
+          neque temporibus consequatur. Qui, laborum!
+        </p>
+      </div>
+    </section>
+    <!-- Seccion contactos -->
+    <section id="contact">
+      <div class="social-icons">
+        <a href="https://github.com/lucasvidela94/" target="_blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/lucas-videla94/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank">
+          <i class="fab fa-twitter-square"></i
+        ></a>
+        <a href="https://www.instagram.com/lucasvidela__/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://codepen.io/lucasvidela94" target="_blank"
+          ><i class="fab fa-codepen"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
